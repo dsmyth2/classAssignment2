@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.heading {
+  text-align: center;
+  padding: 2%;
+}
+
+#main-heading {
+  padding-bottom: 10px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+button {
+  margin: 5px;
+  padding: 3px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.element-group {
+  display: block;
+  columns: 1;
+  justify-content: center;
+}
+
+.hide-btn {
+  width: 70%;
+}
+
+.show-btn {
+  width: 50%;
+}
