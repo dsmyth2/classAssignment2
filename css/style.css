@@ -53,12 +53,6 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-  bottom: 30%;
-  width: 90%;
-  height: 5rem;
-  position: absolute;
-  text-align: center;
 }
 
 button {
@@ -77,5 +71,5 @@ button {
 }
 
 .show-btn {
-  width: 250px;
+  width: 350px;
 }
