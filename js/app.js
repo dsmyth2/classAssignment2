@@ -1,3 +1,4 @@
+// const
 const showABtn = document.getElementById("show-a");
 const hideABtn = document.getElementById("hide-a");
 const divA = document.getElementById("a-moving");
@@ -10,29 +11,34 @@ const showCBtn = document.getElementById("show-c");
 const hideCBtn = document.getElementById("hide-c");
 const divC = document.getElementById("c-moving");
 
+// hide divs by default
+divA.style.visibility = "hidden";
+divB.style.visibility = "hidden";
+divC.style.visibility = "hidden";
+
 // div a
 hideABtn.addEventListener("click", (e) => {
-  divA.style.display = "none";
+  divA.style.visibility = "hidden";
 });
 
 showABtn.addEventListener("click", (e) => {
-  divA.style.display = "initial";
+  divA.style.visibility = "visible";
 });
 
 // div b
 hideBBtn.addEventListener("click", (e) => {
-  divB.style.display = "none";
+  divB.style.visibility = "hidden";
 });
 
 showBBtn.addEventListener("click", (e) => {
-  divB.style.display = "initial";
+  divB.style.visibility = "visible";
 });
 
 // div c
 hideCBtn.addEventListener("click", (e) => {
-  divC.style.display = "none";
+  divC.style.visibility = "hidden";
 });
 
 showCBtn.addEventListener("click", (e) => {
-  divC.style.display = "initial";
+  divC.style.visibility = "visible";
 });
